@@ -1,0 +1,1 @@
+github 레포지토리 생성후 remote로 연결. https://github.com/JeonDaehan/finale.git
