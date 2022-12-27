@@ -60,3 +60,9 @@ https://bdp.kt.co.kr/invoke/SOKBP2603/?goodsCode=BCCSALERATE002019V01
 
 상권(직방크롤링) - 참고
 https://parkeunsang.github.io/blog/dataanalysis/2022/11/03/feat.html
+
+
+
+4) 다음 회의 
+	- 12월 28일
+	- 카드 및 소비패턴 활용 데이터를 통해 실용가능한 대안 만들어오기
