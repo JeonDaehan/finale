@@ -1,0 +1,62 @@
+12월 26일
+주현 대한 성길 명훈 수민 소민
+
+## 아이디어 회의
+
+1) 카드사 데이터 수집
+	- 신한카드사 제공 (원본이 아님, 응용집계, 반출 가능여부가 확인이 안됨)
+		-> 사용 불가할듯
+
+	- 만약 가능하다면 마케팅 쪽으로 이용한다면,
+		-> 사용자의 나이, 카드사용 업종을 분류하여 필요한 마케팅 문자를 보내는 프로그램 개발
+
+	- 1인 가구의 데이터를 중심으로 하면 좋을 것 같다.
+		-> 추가로 1인 가구가 살기좋은 지역구의 요인을 찾아내는 것도 가능
+
+2) 인스타그램을 통한 광고대행 셀럽 찾기
+	- 인스타그램의 #광고 태그를 크롤링하여 "아이디, 게시글 개수, 팔로워, 좋아요, 댓글수, 전체 게시글의 좋아요 개수 대비 광고가 붙은 게시글의 좋아요 개수, " 등등 을 컬럼으로 정리
+
+	- 광고 업종, 분야 별로 파워력이 강한 인플루언서를 등수를 매긴다(정답값)
+
+	- 수집된 데이터를 통해 기업이 어떤 인플루언서에게 어떤 광고를 맡겨야 하는지 알려준다. 
+
+3) 상권 분석을 통한 배달전문점 위치 추천
+	# 메뉴 선택
+	- 날씨별 배달 품목차이 : 날씨의 영향을 받지 않는 것이 무엇인지 분석 
+		https://bdp.kt.co.kr/invoke/SOKBP2603/?goodsCode=KGUWTHRDLVRDF
+	- 업종 목적지별 배달 주문건수 : 각 지역별(시,구) 주문 건수가 많은 업종(카테고리)
+		https://bdp.kt.co.kr/invoke/SOKBP2603/?goodsCode=KGUDSTNORDER
+	- 업종 목적지별 평균주문금액(일별) : 각 지역별(시,구) 주문 금액
+		https://bdp.kt.co.kr/invoke/SOKBP2603/?goodsCode=KGUDSTNAMOUNT
+	- 음식 업종(한식,일식, 중식, 양식, 패스트푸드점) 카드소비트렌드 데이터(월별) : 성별(카테고리), 연령대(카테고리)
+		https://bdp.kt.co.kr/invoke/SOKBP2603/?goodsCode=LTCFOOD
+	- 시간-지역별 배달 주문건수 : 지역별 시간대별 주문 건수
+		https://bdp.kt.co.kr/invoke/SOKBP2603/?goodsCode=KGUTIMEORDER
+# 경쟁력 분석
+	- 배달 상점 데이터 : 주변 상권 분석
+		https://bdp.kt.co.kr/invoke/SOKBP2603/?goodsCode=KGUDLIVERYSTORE00001
+	- 지역-업종 배달평균거리 : 각 지역(시,구)의 카테고리별 평균 배달 거리(어디까지 배달하는지) 
+		https://bdp.kt.co.kr/invoke/SOKBP2603/?goodsCode=KGUAREAAVDSTN
+
+# 위치 선정
+	- 숙박시설 및 주택(원룸, 아파트 등) 파악 : 야놀자, 직방 크롤링^^
+	- 주변 상권?(회사가 많은지, 공공시설이 많은지) 파악 : 공공시설은 데이터 포털, 회사는 사람인...?
+
+# 기타
+	- 주문지역 인구 특성
+		https://bdp.kt.co.kr/invoke/SOKBP2603/?goodsCode=KGUPOPLTNINFO
+
+# 분석 후
+	- 마케팅 전략(고객 특성별 프로모션 등) 제시
+
+
+데이터 사이트 및 참고 자료
+
+KT통신 빅데이터 플랫폼 - 데이터
+https://bdp.kt.co.kr/invoke/SOKBP2602/
+
+카드사용금액정보(상대성지표) - 참고
+https://bdp.kt.co.kr/invoke/SOKBP2603/?goodsCode=BCCSALERATE002019V01
+
+상권(직방크롤링) - 참고
+https://parkeunsang.github.io/blog/dataanalysis/2022/11/03/feat.html
