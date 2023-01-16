@@ -1,0 +1,59 @@
+Heroes,Damage per second ,Headshot DPS  ,Single shot,Nanoboost DPS,Health per Sec,Life,Reload
+Ana,80,,80,,75,200,10
+Ana Grenade,,,60,,100,200,1
+Bastion Recon,160,320,,,,300,20
+Bastion Turret,525,1050,,787.5,,300,200
+D.va Mech ,168,336,,,,600,infinity
+D.va Pistol,93,186,14,,,150,20
+Genji Blade,50,,50,,,200,infinity
+Genji Dragonblade,120,,120,,,200,infinity
+Genji Shurkien,84,168,28,,,200,24
+Hanzo,125,250,125,,,200,1
+Junkrat,200,,120,,,200,5
+Junkrat mine,120,,120,,,200,1
+Junkrat trap,80,,80,,,200,1
+Lucio,64,128,16,,14.5,200,20
+Lucio Soundbarrier,,,,,500,200,
+Lucio Soundwave,25,,25,,36,200,1
+McCree ,140,280,70,,,200,6
+McCree Granata,25,,25,,,200,1
+McCree Sventa,270,,45,,,200,6
+Mei,45,,,,,250,200
+Mei Blizzard,95,,,,,250,
+Mei Cryo Freeze,,,,,200,250,
+Mei Ghiacciatrice,135,270,75,,,250,20
+Melee,30,,30,,,,
+Mercy,,,,,50,200,
+Mercy Pistol,100,200,20,,,200,20
+Pharah,132,,120,,,200,8
+Reaper,240,480,120,360,50,250,
+Reinhardt,75,,75,112.5,,500,
+Reinhardt CALA,50,,50,75,,500,
+Reinhardt Pin,300,,300,450,,500,
+Roadhog Hook,30,,30,45,300,600,1
+Roadhog LM,225,450,225,337.5,,600,4
+Roadhog RM,100,200,50,150,,600,4
+Soldier,200,400,20,,40,200,25
+Soldier Helix,120,,120,,,200,1
+Sombra,160,320,8,,,200,60
+Symmetra,120,,,,,200,100
+Symmetra Photon,125,,,,,200,100
+Torbj Torretta,56,,14,,,150/300,
+Torb Torretta MC,126,,14,,,800,18
+Torbjorn Hammer,75,,75,,,200,
+Torbjorn LM,119,238,70,,,200,18
+Torbjorn Molten LM,175,350,70,,,500,19
+Torbjorn Molten RM,262.5,525,150,,,500,
+Torbjorn RM,195,390,150,,,200,18
+Tracer,240,480,6,,,150,40
+Widowmaker Burst,130,260,13,,,200,30
+Widowmaker Snip,120,300,120,,,200,10
+Widowmaker Venom,15,,75,,,,1
+Winston,54,,,81,,500/1000,100
+Winston Salto,50,,50,75,,500/1000,1
+Zarya,92,,92,,,400,4
+Zarya,160,,,,,400,100
+Zeny trascendence,,,,,300,200,20
+Zenyatta,138,276,46,,30,200,20
+Zenyatta Orbato,179.4,358.8,,,,200,20
+Zenyatta R2,175,350,35,,,200,20
