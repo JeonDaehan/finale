@@ -1,2 +1,5 @@
 dfasdfdddddddddddddd
 1월 19일 생성clone
+
+
+성길님꺼 모델로 사진과 모델 측정해보기->colab
